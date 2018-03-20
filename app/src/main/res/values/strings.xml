@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="hint">Name</string>
+    <string name="submit">Submit</string>
+    <string name="redo">Reset</string>
+    <string name="score">Show my score</string>
+    <string name="title">World of Warcraft quiz</string>
+
+    <!-- list of questions -->
+    <string name="question1">1) Enter the name of the chief of the FrostWolf clan?</string>
+    <string name="question2">2) What is Azeroth?</string>
+    <string name="question3">3) Who did Vol\'Jin lead?</string>
+    <string name="question4">4) Deathwing was known as?</string>
+    <string name="question5">5) Who was chosen by the titans to be over all life?</string>
+    <string name="question6">6) What races are aligned with the horde faction?</string>
+    <string name="question7">7) What area was reshaped by Goblins to resemble the symbol of the Horde?</string>
+    <string name="question8">8) Which of the following is the only raid in world of warcraft where you can play a game of  chess?</string>
+    <string name="question9">9) Which city is home to the humans?</string>
+    <string name="question10">10) What is a Grummle\'s most prized personal possession?</string>
+
+    <!-- list of answers -->
+
+    <string name="answer11">Thrall</string>
+    <string name="answer12">thrall</string>
+    <string name="answer13">THRALL</string>
+
+    <string name="answer21">Dragon</string>
+    <string name="answer22">King</string>
+    <string name="answer23">Planet</string>
+    <string name="answer24">Moon</string>
+
+    <string name="answer31">Darkspear tribe</string>
+    <string name="answer32">The Pandaren</string>
+    <string name="answer33">The Horde</string>
+    <string name="answer34">The Alliance</string>
+
+    <string name="answer41">Nozdormu, the Timeless One</string>
+    <string name="answer42">Neltharion the Earth-Warder</string>
+    <string name="answer43">Malygos, the Spell-Weaver</string>
+    <string name="answer44">Ysera, the Dreamer</string>
+
+    <string name="answer51">Ysera</string>
+    <string name="answer52">Nozdormu</string>
+    <string name="answer53">Malygos</string>
+    <string name="answer54">Alexstrasza</string>
+
+    <string name="answer61">Orc\'s</string>
+    <string name="answer62">Night elf\'s</string>
+    <string name="answer63">Humans</string>
+    <string name="answer64">Trolls</string>
+
+    <string name="answer71">Tirisfal Glades</string>
+    <string name="answer72">Wetlands</string>
+    <string name="answer73">Badlands</string>
+    <string name="answer74">Azshara</string>
+
+    <string name="answer81">The Steamvaults</string>
+    <string name="answer82">Karazhan</string>
+    <string name="answer83">The Gamevaults</string>
+    <string name="answer84">Boarder Land</string>
+
+    <string name="answer91">Stormwind</string>
+    <string name="answer92">Ironforge</string>
+    <string name="answer93">Lordaeron</string>
+    <string name="answer94">Orgrimmar</string>
+
+    <string name="answer101">Hammer of time</string>
+    <string name="answer102">Luckydo</string>
+    <string name="answer103">Vile of shifting sand</string>
+    <string name="answer104">Gem of the sky</string>
+
+</resources>

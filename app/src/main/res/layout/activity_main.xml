@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/introPage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/CustomTextBox"
+            android:text="@string/title" />
+
+        <View style="@style/CustomLine" />
+
+        <!-- question 1 -->
+
+        <TextView
+            android:id="@+id/editQuestion"
+            style="@style/CustomTextBox"
+            android:text="@string/question1" />
+
+        <EditText
+            android:id="@+id/editUserInput"
+            style="@style/CustomEdit"
+            android:hint="@string/hint"
+            android:inputType="text" />
+
+        <!-- question 2 -->
+        <TextView
+            style="@style/CustomTextBox"
+            android:text="@string/question2" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radioAnswer21"
+                style="@style/CustomView"
+                android:text="@string/answer21" />
+
+            <RadioButton
+                android:id="@+id/radioAnswer22"
+                style="@style/CustomView"
+                android:text="@string/answer22" />
+
+            <RadioButton
+                android:id="@+id/radioAnswer23"
+                style="@style/CustomView"
+                android:text="@string/answer23" />
+
+            <RadioButton
+                android:id="@+id/radioAnswer24"
+                style="@style/CustomView"
+                android:text="@string/answer24" />
+
+        </RadioGroup>
+
+        <View style="@style/CustomLine" />
+
+        <!-- question 3 -->
+
+        <TextView
+            style="@style/CustomTextBox"
+            android:text="@string/question3" />
+
+        <CheckBox
+            android:id="@+id/checkAnswer31"
+            style="@style/CustomView"
+            android:text="@string/answer31" />
+
+        <CheckBox
+            android:id="@+id/checkAnswer32"
+            style="@style/CustomView"
+            android:text="@string/answer32" />
+
+        <CheckBox
+            android:id="@+id/checkAnswer33"
+            style="@style/CustomView"
+            android:text="@string/answer33" />
+
+        <CheckBox
+            android:id="@+id/checkAnswer34"
+            style="@style/CustomView"
+            android:text="@string/answer34" />
+
+        <View style="@style/CustomLine" />
+
+        <!-- question 4 -->
+        <TextView
+            style="@style/CustomTextBox"
+            android:text="@string/question4" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupBox4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radioAnswer41"
+                style="@style/CustomView"
+                android:text="@string/answer41" />
+
+            <RadioButton
+                android:id="@+id/radioAnswer42"
+                style="@style/CustomView"
+                android:text="@string/answer42" />
+
+            <RadioButton
+                android:id="@+id/radioAnswer43"
+                style="@style/CustomView"
+                android:text="@string/answer43" />
+
+            <RadioButton
+                android:id="@+id/radioAnswer44"
+                style="@style/CustomView"
+                android:text="@string/answer34" />
+
+        </RadioGroup>
+
+        <View style="@style/CustomLine" />
+
+        <!-- question 5 -->
+
+        <TextView
+            style="@style/CustomTextBox"
+            android:text="@string/question5" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupBox5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radioAnswer51"
+                style="@style/CustomView"
+                android:text="@string/answer51" />
+
+            <RadioButton
+                android:id="@+id/radioAnswer52"
+                style="@style/CustomView"
+                android:text="@string/answer52" />
+
+            <RadioButton
+                android:id="@+id/radioAnswer53"
+                style="@style/CustomView"
+                android:text="@string/answer53" />
+
+            <RadioButton
+                android:id="@+id/radioAnswer54"
+                style="@style/CustomView"
+                android:text="@string/answer54" />
+
+        </RadioGroup>
+
+        <View style="@style/CustomLine" />
+        <!-- question 6 -->
+
+        <TextView
+            style="@style/CustomTextBox"
+            android:text="@string/question6" />
+
+        <CheckBox
+            android:id="@+id/checkAnswer61"
+            style="@style/CustomView"
+            android:text="@string/answer61" />
+
+        <CheckBox
+            android:id="@+id/checkAnswer62"
+            style="@style/CustomView"
+            android:text="@string/answer62" />
+
+        <CheckBox
+            android:id="@+id/checkAnswer63"
+            style="@style/CustomView"
+            android:text="@string/answer63" />
+
+        <CheckBox
+            android:id="@+id/checkAnswer64"
+            style="@style/CustomView"
+            android:text="@string/answer64" />
+
+        <View style="@style/CustomLine" />
+
+        <!-- question 7 -->
+        <TextView
+            style="@style/CustomTextBox"
+            android:text="@string/question7" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupBox7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radioAnswer71"
+                style="@style/CustomView"
+                android:text="@string/answer71" />
+
+            <RadioButton
+                android:id="@+id/radioAnswer72"
+                style="@style/CustomView"
+                android:text="@string/answer72" />
+
+            <RadioButton
+                android:id="@+id/radioAnswer73"
+                style="@style/CustomView"
+                android:text="@string/answer73" />
+
+            <RadioButton
+                android:id="@+id/radioAnswer74"
+                style="@style/CustomView"
+                android:text="@string/answer74" />
+
+        </RadioGroup>
+
+        <View style="@style/CustomLine" />
+
+        <!-- question 8 -->
+        <TextView
+            style="@style/CustomTextBox"
+            android:text="@string/question8" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupBox8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radioAnswer81"
+                style="@style/CustomView"
+                android:text="@string/answer81" />
+
+            <RadioButton
+                android:id="@+id/radioAnswer82"
+                style="@style/CustomView"
+                android:text="@string/answer82" />
+
+            <RadioButton
+                android:id="@+id/radioAnswer83"
+                style="@style/CustomView"
+                android:text="@string/answer83" />
+
+            <RadioButton
+                android:id="@+id/radioAnswer84"
+                style="@style/CustomView"
+                android:text="@string/answer84" />
+
+        </RadioGroup>
+
+        <View style="@style/CustomLine" />
+
+        <!-- question 9 -->
+
+        <TextView
+            style="@style/CustomTextBox"
+            android:text="@string/question9" />
+
+        <CheckBox
+            android:id="@+id/checkAnswer91"
+            style="@style/CustomView"
+            android:text="@string/answer91" />
+
+        <CheckBox
+            android:id="@+id/checkAnswer92"
+            style="@style/CustomView"
+            android:text="@string/answer92" />
+
+        <CheckBox
+            android:id="@+id/checkAnswer93"
+            style="@style/CustomView"
+            android:text="@string/answer93" />
+
+        <CheckBox
+            android:id="@+id/checkAnswer94"
+            style="@style/CustomView"
+            android:text="@string/answer94" />
+
+        <View style="@style/CustomLine" />
+
+        <!-- question 10 -->
+        <TextView
+            style="@style/CustomTextBox"
+            android:text="@string/question10" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupBox10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radioAnswer101"
+                style="@style/CustomView"
+                android:text="@string/answer101" />
+
+            <RadioButton
+                android:id="@+id/radioAnswer102"
+                style="@style/CustomView"
+                android:text="@string/answer102" />
+
+            <RadioButton
+                android:id="@+id/radioAnswer103"
+                style="@style/CustomView"
+                android:text="@string/answer103" />
+
+            <RadioButton
+                android:id="@+id/radioAnswer104"
+                style="@style/CustomView"
+                android:text="@string/answer104" />
+
+        </RadioGroup>
+
+        <View style="@style/CustomLine" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/CustomButton"
+                android:onClick="checkAnswers"
+                android:text="@string/submit" />
+
+            <Button
+                style="@style/CustomButton"
+                android:onClick="resetAnswers"
+                android:text="@string/redo" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
