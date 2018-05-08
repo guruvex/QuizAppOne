@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/introPage"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -37,9 +38,7 @@
 
         <RadioGroup
             android:id="@+id/radioGroupBox2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            style="@style/groupBox">
 
             <RadioButton
                 android:id="@+id/radioAnswer21"
@@ -100,9 +99,7 @@
 
         <RadioGroup
             android:id="@+id/radioGroupBox4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            style="@style/groupBox">
 
             <RadioButton
                 android:id="@+id/radioAnswer41"
@@ -136,9 +133,7 @@
 
         <RadioGroup
             android:id="@+id/radioGroupBox5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            style="@style/groupBox">
 
             <RadioButton
                 android:id="@+id/radioAnswer51"
@@ -198,9 +193,7 @@
 
         <RadioGroup
             android:id="@+id/radioGroupBox7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            style="@style/groupBox">
 
             <RadioButton
                 android:id="@+id/radioAnswer71"
@@ -233,9 +226,7 @@
 
         <RadioGroup
             android:id="@+id/radioGroupBox8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            style="@style/groupBox">
 
             <RadioButton
                 android:id="@+id/radioAnswer81"
@@ -296,9 +287,7 @@
 
         <RadioGroup
             android:id="@+id/radioGroupBox10"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            style="@style/groupBox">
 
             <RadioButton
                 android:id="@+id/radioAnswer101"

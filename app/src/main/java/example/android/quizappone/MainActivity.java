@@ -11,17 +11,15 @@ import android.widget.ScrollView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-
+    // make all the objects
     ScrollView introPage;
     EditText editUserInput;
-
     RadioGroup radioGroupBox2;
     RadioGroup radioGroupBox4;
     RadioGroup radioGroupBox5;
     RadioGroup radioGroupBox7;
     RadioGroup radioGroupBox8;
     RadioGroup radioGroupBox10;
-
     RadioButton radioAnswer21;
     RadioButton radioAnswer22;
     RadioButton radioAnswer23;
@@ -46,7 +44,6 @@ public class MainActivity extends AppCompatActivity {
     RadioButton radioAnswer102;
     RadioButton radioAnswer103;
     RadioButton radioAnswer104;
-
     CheckBox checkAnswer31;
     CheckBox checkAnswer32;
     CheckBox checkAnswer33;
@@ -64,17 +61,15 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        // link all the views to objects
         introPage = findViewById(R.id.introPage);
         editUserInput = findViewById(R.id.editUserInput);
-
         radioGroupBox2 = findViewById(R.id.radioGroupBox2);
         radioGroupBox4 = findViewById(R.id.radioGroupBox4);
         radioGroupBox5 = findViewById(R.id.radioGroupBox5);
         radioGroupBox7 = findViewById(R.id.radioGroupBox7);
         radioGroupBox8 = findViewById(R.id.radioGroupBox8);
         radioGroupBox10 = findViewById(R.id.radioGroupBox10);
-
         radioAnswer21 = findViewById(R.id.radioAnswer21);
         radioAnswer22 = findViewById(R.id.radioAnswer22);
         radioAnswer23 = findViewById(R.id.radioAnswer23);
@@ -112,14 +107,13 @@ public class MainActivity extends AppCompatActivity {
         checkAnswer93 = findViewById(R.id.checkAnswer93);
         checkAnswer94 = findViewById(R.id.checkAnswer94);
     }
-
-
+    /**
+     * check if the answers are all filled in and correct
+     */
     public void checkAnswers(View view) {
-        // check if the answers are correct
         boolean done = true;
         int score = 0;
         String userField;
-
         // check if all answers are filled in.
         // check radio buttons
         if (radioAnswer21.isChecked() || radioAnswer22.isChecked() || radioAnswer23.isChecked() || radioAnswer24.isChecked()) {
@@ -183,10 +177,10 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "You didn't fill in all the questions", Toast.LENGTH_SHORT).show();
             return;
         }
-
-        // if it's made it here every answer has been filled.
-        // checking correct answers.
-
+        /**
+         * if it's made it here every answer has been filled.
+         * now checking for correct answers
+         */
         // question 1
         if (userField.matches("THRALL")) {
             score = score + 10;
@@ -239,20 +233,16 @@ public class MainActivity extends AppCompatActivity {
         if (radioAnswer102.isChecked()) {
             score = score + 10;
         }
-
         Toast.makeText(this, "Well done your score is " + score + " out of 100", Toast.LENGTH_SHORT).show();
-
     }
-
+    /** reset quiz answers */
     public void resetAnswers(View view) {
-        // reset quiz
         radioGroupBox2.clearCheck();
         radioGroupBox4.clearCheck();
         radioGroupBox5.clearCheck();
         radioGroupBox7.clearCheck();
         radioGroupBox8.clearCheck();
         radioGroupBox10.clearCheck();
-
         checkAnswer31.setChecked(false);
         checkAnswer32.setChecked(false);
         checkAnswer33.setChecked(false);
@@ -265,8 +255,6 @@ public class MainActivity extends AppCompatActivity {
         checkAnswer92.setChecked(false);
         checkAnswer93.setChecked(false);
         checkAnswer94.setChecked(false);
-
         editUserInput.setText("");
-
     }
 }

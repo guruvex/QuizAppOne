@@ -6,7 +6,6 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-
     </style>
 
     <style name="CustomButton">
@@ -14,8 +13,8 @@
         <item name="android:textSize">20sp</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">20sp</item>
-        <item name="android:layout_margin">10sp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_margin">10dp</item>
     </style>
 
     <style name="CustomTextBox">
@@ -24,7 +23,7 @@
         <item name="android:textColor">#000000</item>
         <item name="android:textSize">20sp</item>
         <item name="android:freezesText">true</item>
-        <item name="android:layout_margin">10sp</item>
+        <item name="android:layout_margin">10dp</item>
     </style>
 
     <style name="CustomView">
@@ -32,10 +31,9 @@
         <item name="android:textSize">20sp</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_margin">10sp</item>
+        <item name="android:layout_margin">10dp</item>
         <item name="android:freezesText">true</item>
     </style>
-
 
     <style name="CustomEdit">
         <item name="android:textColor">#000000</item>
@@ -49,5 +47,11 @@
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">1dp</item>
         <item name="android:background">#000000</item>
+    </style>
+
+    <style name="groupBox">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
     </style>
 </resources>
